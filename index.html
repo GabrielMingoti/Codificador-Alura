@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cod/Decod Alrua</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./imagens/alura.svg" type="image/x-icon">
+</head>
+<body>
+
+        <header class="cabecalho">
+            <img class="logo_alura" src="./imagens/alura.svg" alt="Imagem com letra A Logo da Alura">
+           <h1>Mensagens codificadas</h1> 
+        </header>
+
+    <main class="estrutura">    
+        <section class="estrutura_one">
+            <div class="campo_input">
+                <textarea id="input_texto" placeholder="Digite seu texto" class="campo_texto"></textarea>
+            </div>   
+            <div class="texto_alerta">
+                <img src="./imagens/alerta.svg" alt="Imagem com ponto de exclamação no centro indicando mensagem de alerta a seguir"> 
+                <p>Digite seu texto apenas com letras maiúsculas, sem acentos e pontuações</p>
+            </div>                        
+            <div class="buttons">
+                    <button class="btn_cript">Criptografar</button>
+                    <button class="btn_descript">Descriptografar</button>
+            </div>      
+        </section>
+
+        <section class="estrutura_two">
+            <div class="campo_texto_output">
+                <img src="./imagens/waiting.svg" alt="Imagem de um personagem com uma lupa aguardando texto">
+            </div>
+            
+            <div class="paragrafo_subtitulo">
+                <strong><h2>Nenhuma mensagem encontrada...</h2></strong>
+                <p>Digite ou insira um texto para criptografar ou descriptografar</p>
+            </div>           
+
+            <div class="btn_func_copiar">
+                <button class="btn_copiar">Copiar</button>
+            </div>
+            <div class="paragrafo_resultado">
+                <p></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

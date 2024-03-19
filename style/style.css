@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/*:root{
+    --azulescuro: #0A3871;
+    --branco: #FFFFFF;
+    --azulclaro: #D8DFE8;
+    --cinzaclaro: #495057;
+    --cinzaescuro: #343A40;
+}
+*/
+
+body {
+    background-color: #f4f4fc;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+.logo_alura {
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.campo_input {
+    width: 1080px;
+    height: 600px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+.campo_texto{
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.campo_texto::placeholder {
+    color:#0A3871;
+}
+
+.btn_cript {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.btn_descript {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid #0A3871;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.estrutura.one {
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 940px;
+    right: 400px;
+    padding-right: 20px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0, 0.50);
+}
+
+/*.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}*/
