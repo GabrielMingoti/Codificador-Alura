@@ -10,15 +10,15 @@
 </head>
 <body>
 
-        <header class="cabecalho">
-            <img class="logo_alura" src="./imagens/alura.svg" alt="Imagem com letra A Logo da Alura">
-           <h1>Mensagens codificadas</h1> 
-        </header>
+    <header class="cabecalho">
+        <img class="logo_alura" src="./imagens/alura.svg" alt="Imagem com letra A Logo da Alura">
+        <h1>Mensagens codificadas</h1> 
+    </header>
 
-    <main class="estrutura">    
+    <main>    
         <section class="estrutura_one">
             <div class="campo_input">
-                <textarea id="input_texto" placeholder="Digite seu texto" class="campo_texto"></textarea>
+                <textarea placeholder="Digite seu texto" class="campoTexto"></textarea>
             </div>   
             <div class="texto_alerta">
                 <img src="./imagens/alerta.svg" alt="Imagem com ponto de exclamação no centro indicando mensagem de alerta a seguir"> 
@@ -31,7 +31,7 @@
         </section>
 
         <section class="estrutura_two">
-            <div class="campo_texto_output">
+            <div class="img_procurando">
                 <img src="./imagens/waiting.svg" alt="Imagem de um personagem com uma lupa aguardando texto">
             </div>
             
@@ -40,21 +40,20 @@
                 <p>Digite ou insira um texto para criptografar ou descriptografar</p>
             </div>           
 
-            <div class="btn_func_copiar">
+            <div class="copiar">
                 <button class="btn_copiar">Copiar</button>
+                <!-- <input type="button" class="btn-copiar" value="Copiar"> -->
             </div>
-            <div class="paragrafo_resultado">
-                <p></p>
+            <div class="resultado">
+                <p class="texto-resultado"></p>
             </div>
         </section>
 
     </main>
 
-    <footer class="rodape">
-        <div class="icons">
-
-        </div>
-    </footer>
+    <footer>
+        
+    </footer> 
 
     <script src="app.js"></script>
 </body>
